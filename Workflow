@@ -1,0 +1,13 @@
+1.	User enters task details in GUI
+	2.	Clicks Add Task
+	3.	Task is:
+	•	Saved in CSV
+	•	Displayed in list
+	4.	System continuously:
+	•	Checks deadlines (automatic or manual)
+	5.	If deadline is near:
+	•	Popup reminder shown
+	•	Email sent to user
+	6.	User can:
+	•	View tasks
+	•	Delete tasks
