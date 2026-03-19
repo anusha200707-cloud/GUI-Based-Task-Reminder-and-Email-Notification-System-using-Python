@@ -1,0 +1,19 @@
+The system is divided into 5 main modules:
+	1.	GUI Module (Tkinter)
+	•	Handles user interaction
+	•	Input fields, buttons, task display
+	2.	Storage Module (CSV File)
+	•	Stores tasks permanently
+	•	Each task → name, description, deadline, email
+	3.	Task Management Module
+	•	Add, view, delete tasks
+	•	Updates GUI + CSV file
+	4.	Deadline Monitoring Module
+	•	Uses datetime
+	•	Checks if task is due in 24/48 hours
+	5.	Notification Module
+	•	Sends email using smtplib
+	•	Alerts user about upcoming deadlines
+	6.	Automation Module
+	•	Runs periodic checks using after()
+	•	Works in background automatically
